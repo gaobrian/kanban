@@ -12,9 +12,9 @@ gem 'therubyracer'
 gem 'thin'
 
 group :assets do
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'coffee-rails', '~> 3.2.2'
   gem 'less-rails'
-  gem 'sass-rails', '~> 3.2.3'
+  gem 'sass-rails', '~> 3.2.6'
   gem 'uglifier', '>= 1.0.3'
 end
 
