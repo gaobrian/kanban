@@ -1,26 +1,26 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '6.1.7.3'
 
 gem 'acts_as_list'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'ejs'
-gem 'jquery-rails'
-gem 'jquery-ui-rails'
+gem 'jquery-rails', '>= 4.4.0'
+gem 'jquery-ui-rails', '>= 6.0.0'
 gem 'rabl'
 gem 'therubyracer'
 gem 'thin'
 
 group :assets do
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'coffee-rails', '~> 4.2.2'
   gem 'less-rails'
-  gem 'sass-rails', '~> 3.2.3'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'sass-rails', '~> 5.0.8'
+  gem 'uglifier', '>= 2.7.2'
 end
 
 group :development do
   gem 'annotate'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller'
   gem 'debugger'
   gem 'meta_request'
