@@ -23,7 +23,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'debugger'
-  gem 'meta_request'
+  gem 'meta_request', '>= 0.4.3'
   gem 'pry-rails'
   gem 'rails-erd'
   gem 'seed_dump'
