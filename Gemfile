@@ -1,20 +1,20 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '4.0.0'
 
 gem 'acts_as_list'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'ejs'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.0'
 gem 'jquery-ui-rails'
 gem 'rabl'
 gem 'therubyracer'
 gem 'thin'
 
 group :assets do
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'less-rails'
-  gem 'sass-rails', '~> 3.2.3'
+  gem 'coffee-rails', '~> 4.0.0'
+  gem 'less-rails', '>= 2.7.0'
+  gem 'sass-rails', '~> 6.0.0'
   gem 'uglifier', '>= 1.0.3'
 end
 
