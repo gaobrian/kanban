@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '7.1.5.2'
 
-gem 'acts_as_list'
+gem 'acts_as_list', '>= 0.4.0'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'ejs'
 gem 'jquery-rails'
@@ -19,14 +19,14 @@ group :assets do
 end
 
 group :development do
-  gem 'annotate'
+  gem 'annotate', '>= 2.6.2'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'debugger'
   gem 'meta_request'
   gem 'pry-rails'
-  gem 'rails-erd'
-  gem 'seed_dump'
+  gem 'rails-erd', '>= 1.3.0'
+  gem 'seed_dump', '>= 3.2.4'
 end
 
 group :development, :test do
